@@ -1,0 +1,3 @@
+procs:
+  ssh-server: "git-pr-ssh --config ./data/git-pr.toml"
+  web-server: "git-pr-web --config ./data/git-pr.toml"

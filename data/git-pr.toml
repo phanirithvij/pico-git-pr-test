@@ -1,0 +1,15 @@
+# url is used for help commands, exclude protocol
+url = "localhost"
+web_port = "3005"
+ssh_port = "4444"
+# where we store the sqlite db, this toml file, and ssh host keys
+data_dir = "./db"
+# list of admin ssh pubkeys, authorized to submit review and other admin
+# permissions
+admins = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF8/+FK1TAZV7p1a92/ykOXqPGt34rsiHxXLgVG3b/3x rithvij@iron" ]
+# set datetime format for our clients
+time_format = "2006-01-02"
+# who can create new repos?
+#   admin: only admins
+#   user: admins and users
+create_repo = "user"
