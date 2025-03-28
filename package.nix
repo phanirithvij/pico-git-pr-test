@@ -1,3 +1,4 @@
+# Copied and modified from nixpkgs, licensed MIT
 {
   lib,
   buildGoModule,
